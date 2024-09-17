@@ -1,0 +1,29 @@
+# Jupyter Notebook files
+*.ipynb_checkpoints/  # Jupyter notebook checkpoints directory
+
+# Python files
+*.pyc                # Compiled Python files
+*.pyo                # Optimized Python files
+__pycache__/         # Python cache directory
+
+# Virtual environment
+venv/                # Virtual environment directory
+
+# Data files
+data/raw/            # Raw data files (you might want to keep this if it includes essential data)
+data/processed/      # Processed data files (you might want to keep this if they are large or sensitive)
+
+# Models
+models/model.pkl     # Serialized models (if large or not necessary for version control)
+
+# IDEs and editors
+.vscode/             # VS Code configuration
+.idea/               # IntelliJ IDEA configuration
+*.swp                # Swap files
+
+# Logs
+*.log                # Log files
+
+# Environment files
+.env                 # Environment variable files
+
